@@ -2,7 +2,9 @@ PHP 7.0.27 with OpenSSL FIPS Complaint Build
 
 # Compile PHP 7.0.27: [In 32 Bit Windows 7]
 
-Reference Link: https://wiki.php.net/internals/windows/stepbystepbuild
+##### Reference Link: https://wiki.php.net/internals/windows/stepbystepbuild
+##### Reference FIPS Module: https://github.com/shadman/fips-module-build
+##### Reference OPENSSL FIPS Complaint: https://github.com/shadman/openssl-fips-module-build
 
 1. Install Visual Studio 2015 with VC 14 for PHP 7.0.27 Compilation
 2. Get the PHP source, there are two alternatives: http://windows.php.net/download/
