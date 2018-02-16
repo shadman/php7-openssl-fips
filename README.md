@@ -17,9 +17,13 @@ PHP 7.0.27 with OpenSSL FIPS Complaint Build
 6. Create the build directory c:\php-sdk
 7. Unpack the binary tools archive into this directory, it should contain three sub-directories: bin, script and share
 8. Open the command prompt and enter the build directory:
+
 	> cd c:\php-sdk\
+
 9. Run the buildtree batch script which will create the desired directory structure:
+
 	> bin\phpsdk_buildtree.bat phpdev
+
 10. The buildtree script hasn't been updated for newer versions of VC++ so:
     - If compiling for VC14: copy C:\php-sdk\phpdev\vc9 to C:\php-sdk\phpdev\vc14
 11. Extract the PHP source code to C:\php-sdk\phpdev\vc14\x86\
@@ -90,16 +94,22 @@ After above changes you are now ready do execute PHP compilation.
 14. Open Developer Command Prompt for VS2015
 
  a. Set Variables:
-> cd ...\php-sdk\
-> bin\phpsdk_setvars.bat
+
+	> cd ...\php-sdk\
+
+	> bin\phpsdk_setvars.bat
 
  b. Set Configuration:
-> cd ...\Compiling\php-sdk\phpdev\vc14\x86\php-7.0.27-src
-> buildconf
-> configure --enable-cli --disable-all --disable-zts --with-openssl=ext/openssl/fips,shared
+
+	> cd ...\Compiling\php-sdk\phpdev\vc14\x86\php-7.0.27-src
+
+	> buildconf
+
+	> configure --enable-cli --disable-all --disable-zts --with-openssl=ext/openssl/fips,shared
 
  c. Make Configured Build:
-> nmake			[to build]
+
+	> nmake			[to build]
 
 After above your build will be ready in `Release` directory
 
