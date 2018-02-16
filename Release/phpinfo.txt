@@ -1,0 +1,354 @@
+phpinfo()
+PHP Version => 7.0.27
+
+System => Windows NT LTP-TEST-FARAZB 6.1 build 7601 (Windows 7 Ultimate Edition Service Pack 1) i586
+Build Date => Feb 15 2018 19:02:33
+Compiler => MSVC14 (Visual C++ 2015)
+Architecture => x86
+Configure Command => cscript /nologo configure.js  "--enable-cli" "--disable-all" "--disable-zts" "--with-openssl=ext/openssl/fips,shared"
+Server API => Command Line Interface
+Virtual Directory Support => disabled
+Configuration File (php.ini) Path => C:\Windows
+Loaded Configuration File => C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\Compiling\php-sdk\phpdev\vc14\x86\php-7.0.27-src\Release\php.ini
+Scan this dir for additional .ini files => (none)
+Additional .ini files parsed => (none)
+PHP API => 20151012
+PHP Extension => 20151012
+Zend Extension => 320151012
+Zend Extension Build => API320151012,NTS,VC14
+PHP Extension Build => API20151012,NTS,VC14
+Debug Build => no
+Thread Safety => disabled
+Zend Signal Handling => disabled
+Zend Memory Manager => enabled
+Zend Multibyte Support => disabled
+IPv6 Support => enabled
+DTrace Support => disabled
+
+Registered PHP Streams => php, file, glob, data, http, ftp, https, ftps
+Registered Stream Socket Transports => tcp, udp, ssl, sslv3, tls, tlsv1.0, tlsv1.1, tlsv1.2
+Registered Stream Filters => string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk
+
+This program makes use of the Zend Scripting Language Engine:
+Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
+
+
+ _______________________________________________________________________
+
+
+Configuration
+
+Core
+
+PHP Version => 7.0.27
+
+Directive => Local Value => Master Value
+allow_url_fopen => On => On
+allow_url_include => Off => Off
+arg_separator.input => & => &
+arg_separator.output => & => &
+auto_append_file => no value => no value
+auto_globals_jit => On => On
+auto_prepend_file => no value => no value
+browscap => no value => no value
+default_charset => UTF-8 => UTF-8
+default_mimetype => text/html => text/html
+disable_classes => no value => no value
+disable_functions => no value => no value
+display_errors => Off => Off
+display_startup_errors => Off => Off
+doc_root => no value => no value
+docref_ext => no value => no value
+docref_root => no value => no value
+enable_dl => Off => Off
+enable_post_data_reading => On => On
+error_append_string => no value => no value
+error_log => no value => no value
+error_prepend_string => no value => no value
+error_reporting => 22527 => 22527
+exit_on_timeout => Off => Off
+expose_php => On => On
+extension_dir => extensions => extensions
+file_uploads => On => On
+highlight.comment => <font style="color: #FF8000">#FF8000</font> => <font style="color: #FF8000">#FF8000</font>
+highlight.default => <font style="color: #0000BB">#0000BB</font> => <font style="color: #0000BB">#0000BB</font>
+highlight.html => <font style="color: #000000">#000000</font> => <font style="color: #000000">#000000</font>
+highlight.keyword => <font style="color: #007700">#007700</font> => <font style="color: #007700">#007700</font>
+highlight.string => <font style="color: #DD0000">#DD0000</font> => <font style="color: #DD0000">#DD0000</font>
+html_errors => Off => Off
+ignore_repeated_errors => Off => Off
+ignore_repeated_source => Off => Off
+ignore_user_abort => Off => Off
+implicit_flush => On => On
+include_path => .;C:\php\pear => .;C:\php\pear
+input_encoding => no value => no value
+internal_encoding => no value => no value
+log_errors => On => On
+log_errors_max_len => 1024 => 1024
+mail.add_x_header => On => On
+mail.force_extra_parameters => no value => no value
+mail.log => no value => no value
+max_execution_time => 0 => 0
+max_file_uploads => 20 => 20
+max_input_nesting_level => 64 => 64
+max_input_time => -1 => -1
+max_input_vars => 1000 => 1000
+memory_limit => 128M => 128M
+open_basedir => no value => no value
+output_buffering => 0 => 0
+output_encoding => no value => no value
+output_handler => no value => no value
+post_max_size => 8M => 8M
+precision => 14 => 14
+realpath_cache_size => 4096K => 4096K
+realpath_cache_ttl => 120 => 120
+register_argc_argv => On => On
+report_memleaks => On => On
+report_zend_debug => Off => Off
+request_order => GP => GP
+sendmail_from => no value => no value
+sendmail_path => no value => no value
+serialize_precision => 17 => 17
+short_open_tag => Off => Off
+SMTP => localhost => localhost
+smtp_port => 25 => 25
+sql.safe_mode => Off => Off
+sys_temp_dir => no value => no value
+track_errors => Off => Off
+unserialize_callback_func => no value => no value
+upload_max_filesize => 2M => 2M
+upload_tmp_dir => no value => no value
+user_dir => no value => no value
+user_ini.cache_ttl => 300 => 300
+user_ini.filename => .user.ini => .user.ini
+variables_order => GPCS => GPCS
+windows.show_crt_warning => Off => Off
+xmlrpc_error_number => 0 => 0
+xmlrpc_errors => Off => Off
+zend.assertions => -1 => -1
+zend.detect_unicode => On => On
+zend.enable_gc => On => On
+zend.multibyte => Off => Off
+zend.script_encoding => no value => no value
+
+date
+
+date/time support => enabled
+timelib version => 2016.02
+"Olson" Timezone Database Version => 2017.3
+Timezone Database => internal
+Default timezone => UTC
+
+Directive => Local Value => Master Value
+date.default_latitude => 31.7667 => 31.7667
+date.default_longitude => 35.2333 => 35.2333
+date.sunrise_zenith => 90.583333 => 90.583333
+date.sunset_zenith => 90.583333 => 90.583333
+date.timezone => no value => no value
+
+openssl
+
+OpenSSL support => enabled
+OpenSSL Library Version => OpenSSL 1.0.2k-fips  26 Jan 2017
+OpenSSL Header Version => OpenSSL 1.0.2m  2 Nov 2017
+Openssl default config => /usr/local/ssl/openssl.cnf
+
+Directive => Local Value => Master Value
+openssl.cafile => no value => no value
+openssl.capath => no value => no value
+
+pcre
+
+PCRE (Perl Compatible Regular Expressions) Support => enabled
+PCRE Library Version => 8.38 2015-11-23
+PCRE JIT Support => not compiled in
+
+Directive => Local Value => Master Value
+pcre.backtrack_limit => 1000000 => 1000000
+pcre.recursion_limit => 100000 => 100000
+
+Reflection
+
+Reflection => enabled
+Version => $Id: e5303663dcb329e17818853ff223e5ee01481f2c $
+
+SPL
+
+SPL support => enabled
+Interfaces => Countable, OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject
+Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, CallbackFilterIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveCallbackFilterIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException
+
+standard
+
+Dynamic Library Support => enabled
+Internal Sendmail Support for Windows => enabled
+
+Directive => Local Value => Master Value
+assert.active => 1 => 1
+assert.bail => 0 => 0
+assert.callback => no value => no value
+assert.exception => 0 => 0
+assert.quiet_eval => 0 => 0
+assert.warning => 1 => 1
+auto_detect_line_endings => 0 => 0
+default_socket_timeout => 60 => 60
+from => no value => no value
+url_rewriter.tags => a=href,area=href,frame=src,input=src,form=fakeentry => a=href,area=href,frame=src,input=src,form=fakeentry
+user_agent => no value => no value
+
+Additional Modules
+
+Module Name
+
+Environment
+
+Variable => Value
+ALLUSERSPROFILE => C:\ProgramData
+APPDATA => C:\Users\LTP\AppData\Roaming
+BISON_SIMPLE => C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\\..\bin\bison.simple
+CLASSPATH => C:\Program Files\Borland\InterBase\InterClient\interclient.jar;C:\Program Files (x86)\Borland\InterBase\InterClient\interclient.jar
+CommonProgramFiles => C:\Program Files\Common Files
+COMPUTERNAME => LTP-TEST-FARAZB
+ComSpec => C:\Windows\system32\cmd.exe
+DevEnvDir => C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\
+DNVM_CMD_PATH_FILE => "C:\Users\LTP\.dnx\temp-set-envvars.cmd"
+FP_NO_HOST_CHECK => NO
+Framework40Version => v4.0
+FrameworkDir => C:\Windows\Microsoft.NET\Framework\
+FrameworkDIR32 => C:\Windows\Microsoft.NET\Framework\
+FrameworkVersion => v4.0.30319
+FrameworkVersion32 => v4.0.30319
+HOMEDRIVE => C:
+HOMEPATH => \Users\LTP
+INCLUDE => C:\Program Files\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files\Windows Kits\8.1\include\\shared;C:\Program Files\Windows Kits\8.1\include\\um;C:\Program Files\Windows Kits\8.1\include\\winrt;C:\Program Files\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files\Windows Kits\8.1\include\\shared;C:\Program Files\Windows Kits\8.1\include\\um;C:\Program Files\Windows Kits\8.1\include\\winrt;C:\Program Files\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files\Windows Kits\8.1\include\\shared;C:\Program Files\Windows Kits\8.1\include\\um;C:\Program Files\Windows Kits\8.1\include\\winrt;
+LIB => C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files\Windows Kits\8.1\lib\winv6.3\um\x86;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files\Windows Kits\8.1\lib\winv6.3\um\x86;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files\Windows Kits\8.1\lib\winv6.3\um\x86;
+LIBPATH => C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral;\Microsoft.VCLibs\14.0\References\CommonConfiguration\neutral;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral;\Microsoft.VCLibs\14.0\References\CommonConfiguration\neutral;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral;\Microsoft.VCLibs\14.0\References\CommonConfiguration\neutral;
+LOCALAPPDATA => C:\Users\LTP\AppData\Local
+LOGONSERVER => \\LTP-TEST-FARAZB
+NETFXSDKDir => C:\Program Files\Windows Kits\NETFXSDK\4.6.1\
+NUMBER_OF_PROCESSORS => 4
+OS => Windows_NT
+Path => C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\MSBuild\14.0\bin;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 14.0\VC\BIN;C:\Program Files\Microsoft Visual Studio 14.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\VCPackages;C:\Program Files\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools;C:\Program Files\Windows Kits\8.1\bin\x86;C:\Program Files\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\MSBuild\14.0\bin;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 14.0\VC\BIN;C:\Program Files\Microsoft Visual Studio 14.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\VCPackages;C:\Program Files\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools;C:\Program Files\Windows Kits\8.1\bin\x86;C:\Program Files\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Users\LTP\.dnx\bin;C:\Program Files\MSBuild\14.0\bin;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 14.0\VC\BIN;C:\Program Files\Microsoft Visual Studio 14.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\VCPackages;C:\Program Files\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools;C:\Program Files\Windows Kits\8.1\bin\x86;C:\Program Files\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\;C:\Perl\site\bin;C:\Perl\bin;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NASM;C:\Program Files\Microsoft Visual Studio 11.0\VC\bin;C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\\..\bin;C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\;D:\apps\svn\bin
+PATHEXT => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PHP_BUILDCONF_PATH => C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\Compiling\php-sdk\phpdev\vc14\x86\php-7.0.27-src\
+PHP_SDK_BIN_PATH => C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\\..\bin
+PHP_SDK_PATH => C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\\..
+PROCESSOR_ARCHITECTURE => x86
+PROCESSOR_IDENTIFIER => x86 Family 6 Model 42 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL => 6
+PROCESSOR_REVISION => 2a07
+ProgramData => C:\ProgramData
+ProgramFiles => C:\Program Files
+PROMPT => $P$G
+PSModulePath => C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC => C:\Users\Public
+SESSIONNAME => Console
+SystemDrive => C:
+SystemRoot => C:\Windows
+TEMP => C:\Users\LTP\AppData\Local\Temp
+TMP => C:\Users\LTP\AppData\Local\Temp
+UCRTVersion => 10.0.10240.0
+UniversalCRTSdkDir => C:\Program Files\Windows Kits\10\
+USERDOMAIN => LTP-TEST-FARAZB
+USERNAME => Test
+USERPROFILE => C:\Users\LTP
+VCINSTALLDIR => C:\Program Files\Microsoft Visual Studio 14.0\VC\
+VisualStudioVersion => 14.0
+VS110COMNTOOLS => C:\Program Files\Microsoft Visual Studio 11.0\Common7\Tools\
+VS140COMNTOOLS => C:\Program Files\Microsoft Visual Studio 14.0\Common7\Tools\
+VSINSTALLDIR => C:\Program Files\Microsoft Visual Studio 14.0\
+windir => C:\Windows
+WindowsLibPath => C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral
+WindowsSdkDir => C:\Program Files\Windows Kits\8.1\
+WindowsSDKLibVersion => winv6.3\
+WindowsSDKVersion => \
+WindowsSDK_ExecutablePath_x86 => C:\Program Files\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\
+
+PHP Variables
+
+Variable => Value
+$_SERVER['ALLUSERSPROFILE'] => C:\ProgramData
+$_SERVER['APPDATA'] => C:\Users\LTP\AppData\Roaming
+$_SERVER['BISON_SIMPLE'] => C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\\..\bin\bison.simple
+$_SERVER['CLASSPATH'] => C:\Program Files\Borland\InterBase\InterClient\interclient.jar;C:\Program Files (x86)\Borland\InterBase\InterClient\interclient.jar
+$_SERVER['CommonProgramFiles'] => C:\Program Files\Common Files
+$_SERVER['COMPUTERNAME'] => LTP-TEST-FARAZB
+$_SERVER['ComSpec'] => C:\Windows\system32\cmd.exe
+$_SERVER['DevEnvDir'] => C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\
+$_SERVER['DNVM_CMD_PATH_FILE'] => "C:\Users\LTP\.dnx\temp-set-envvars.cmd"
+$_SERVER['FP_NO_HOST_CHECK'] => NO
+$_SERVER['Framework40Version'] => v4.0
+$_SERVER['FrameworkDir'] => C:\Windows\Microsoft.NET\Framework\
+$_SERVER['FrameworkDIR32'] => C:\Windows\Microsoft.NET\Framework\
+$_SERVER['FrameworkVersion'] => v4.0.30319
+$_SERVER['FrameworkVersion32'] => v4.0.30319
+$_SERVER['HOMEDRIVE'] => C:
+$_SERVER['HOMEPATH'] => \Users\LTP
+$_SERVER['INCLUDE'] => C:\Program Files\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files\Windows Kits\8.1\include\\shared;C:\Program Files\Windows Kits\8.1\include\\um;C:\Program Files\Windows Kits\8.1\include\\winrt;C:\Program Files\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files\Windows Kits\8.1\include\\shared;C:\Program Files\Windows Kits\8.1\include\\um;C:\Program Files\Windows Kits\8.1\include\\winrt;C:\Program Files\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files\Windows Kits\8.1\include\\shared;C:\Program Files\Windows Kits\8.1\include\\um;C:\Program Files\Windows Kits\8.1\include\\winrt;
+$_SERVER['LIB'] => C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files\Windows Kits\8.1\lib\winv6.3\um\x86;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files\Windows Kits\8.1\lib\winv6.3\um\x86;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;C:\Program Files\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files\Windows Kits\8.1\lib\winv6.3\um\x86;
+$_SERVER['LIBPATH'] => C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral;\Microsoft.VCLibs\14.0\References\CommonConfiguration\neutral;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral;\Microsoft.VCLibs\14.0\References\CommonConfiguration\neutral;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\LIB;C:\Program Files\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB;C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral;\Microsoft.VCLibs\14.0\References\CommonConfiguration\neutral;
+$_SERVER['LOCALAPPDATA'] => C:\Users\LTP\AppData\Local
+$_SERVER['LOGONSERVER'] => \\LTP-TEST-FARAZB
+$_SERVER['NETFXSDKDir'] => C:\Program Files\Windows Kits\NETFXSDK\4.6.1\
+$_SERVER['NUMBER_OF_PROCESSORS'] => 4
+$_SERVER['OS'] => Windows_NT
+$_SERVER['Path'] => C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\MSBuild\14.0\bin;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 14.0\VC\BIN;C:\Program Files\Microsoft Visual Studio 14.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\VCPackages;C:\Program Files\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools;C:\Program Files\Windows Kits\8.1\bin\x86;C:\Program Files\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\MSBuild\14.0\bin;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 14.0\VC\BIN;C:\Program Files\Microsoft Visual Studio 14.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\VCPackages;C:\Program Files\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools;C:\Program Files\Windows Kits\8.1\bin\x86;C:\Program Files\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Users\LTP\.dnx\bin;C:\Program Files\MSBuild\14.0\bin;C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 14.0\VC\BIN;C:\Program Files\Microsoft Visual Studio 14.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 14.0\VC\VCPackages;C:\Program Files\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio 14.0\Team Tools\Performance Tools;C:\Program Files\Windows Kits\8.1\bin\x86;C:\Program Files\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\;C:\Perl\site\bin;C:\Perl\bin;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NASM;C:\Program Files\Microsoft Visual Studio 11.0\VC\bin;C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\\..\bin;C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\;D:\apps\svn\bin
+$_SERVER['PATHEXT'] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+$_SERVER['PHP_BUILDCONF_PATH'] => C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\Compiling\php-sdk\phpdev\vc14\x86\php-7.0.27-src\
+$_SERVER['PHP_SDK_BIN_PATH'] => C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\\..\bin
+$_SERVER['PHP_SDK_PATH'] => C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\bin\\..
+$_SERVER['PROCESSOR_ARCHITECTURE'] => x86
+$_SERVER['PROCESSOR_IDENTIFIER'] => x86 Family 6 Model 42 Stepping 7, GenuineIntel
+$_SERVER['PROCESSOR_LEVEL'] => 6
+$_SERVER['PROCESSOR_REVISION'] => 2a07
+$_SERVER['ProgramData'] => C:\ProgramData
+$_SERVER['ProgramFiles'] => C:\Program Files
+$_SERVER['PROMPT'] => $P$G
+$_SERVER['PSModulePath'] => C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+$_SERVER['PUBLIC'] => C:\Users\Public
+$_SERVER['SESSIONNAME'] => Console
+$_SERVER['SystemDrive'] => C:
+$_SERVER['SystemRoot'] => C:\Windows
+$_SERVER['TEMP'] => C:\Users\LTP\AppData\Local\Temp
+$_SERVER['TMP'] => C:\Users\LTP\AppData\Local\Temp
+$_SERVER['UCRTVersion'] => 10.0.10240.0
+$_SERVER['UniversalCRTSdkDir'] => C:\Program Files\Windows Kits\10\
+$_SERVER['USERDOMAIN'] => LTP-TEST-FARAZB
+$_SERVER['USERNAME'] => Test
+$_SERVER['USERPROFILE'] => C:\Users\LTP
+$_SERVER['VCINSTALLDIR'] => C:\Program Files\Microsoft Visual Studio 14.0\VC\
+$_SERVER['VisualStudioVersion'] => 14.0
+$_SERVER['VS110COMNTOOLS'] => C:\Program Files\Microsoft Visual Studio 11.0\Common7\Tools\
+$_SERVER['VS140COMNTOOLS'] => C:\Program Files\Microsoft Visual Studio 14.0\Common7\Tools\
+$_SERVER['VSINSTALLDIR'] => C:\Program Files\Microsoft Visual Studio 14.0\
+$_SERVER['windir'] => C:\Windows
+$_SERVER['WindowsLibPath'] => C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral
+$_SERVER['WindowsSdkDir'] => C:\Program Files\Windows Kits\8.1\
+$_SERVER['WindowsSDKLibVersion'] => winv6.3\
+$_SERVER['WindowsSDKVersion'] => \
+$_SERVER['WindowsSDK_ExecutablePath_x86'] => C:\Program Files\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\
+$_SERVER['PHP_SELF'] => -
+$_SERVER['SCRIPT_NAME'] => -
+$_SERVER['SCRIPT_FILENAME'] => 
+$_SERVER['PATH_TRANSLATED'] => 
+$_SERVER['DOCUMENT_ROOT'] => 
+$_SERVER['REQUEST_TIME_FLOAT'] => 1518704196.4391
+$_SERVER['REQUEST_TIME'] => 1518704196
+$_SERVER['argv'] => Array
+(
+    [0] => -
+)
+
+$_SERVER['argc'] => 1
+
+PHP License
+This program is free software; you can redistribute it and/or modify
+it under the terms of the PHP License as published by the PHP Group
+and included in the distribution in the file:  LICENSE
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+If you did not receive a copy of the PHP license, or have any
+questions about PHP licensing, please contact license@php.net.

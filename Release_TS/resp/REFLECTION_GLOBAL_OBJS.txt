@@ -1,0 +1,1 @@
+  C:\Users\LTP\Desktop\PHP7Compiling\php-sdk\Compiling\php-sdk\phpdev\vc14\x86\php-7.0.27-src\Release_TS\ext\reflection\php_reflection.obj
