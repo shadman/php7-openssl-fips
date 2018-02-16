@@ -1,4 +1,3 @@
-# php7-openssl-fips
 PHP 7.0.27 with OpenSSL FIPS Complaint Build
 
 # Compile PHP 7.0.27: [In 32 Bit Windows 7]
@@ -22,7 +21,8 @@ Reference Link: https://wiki.php.net/internals/windows/stepbystepbuild
 12. In the same directory where you extracted the PHP source there is a deps directory. Where you will need to extract the libraries required to build PHP, which you downloaded in the perevious step (the deps-*.7z archive).
 13. Open a file 'C:\php-sdk\phpdev\vc14\x86\php-7.0.27-src\ext\openssl\openssl.c' in editor and add following lines to add FIPS related changes:
 
-```...
+```
+...
 ...
 
 	PHP_FUNCTION(openssl_fips_init);
@@ -75,7 +75,8 @@ PHP_FUNCTION(openssl_fips_enabled)
 /* }}} */
 
 ...
-...```
+...
+```
 
 ### Note: Add all above changes, then save it.
 
@@ -83,16 +84,16 @@ After above changes you are now ready do execute PHP compilation.
 
 14. Open Developer Command Prompt for VS2015
 
-a. Set Variables:
+ a. Set Variables:
 > cd ...\php-sdk\
 > bin\phpsdk_setvars.bat
 
-b. Set Configuration:
+ b. Set Configuration:
 > cd ...\Compiling\php-sdk\phpdev\vc14\x86\php-7.0.27-src
 > buildconf
 > configure --enable-cli --disable-all --disable-zts --with-openssl=ext/openssl/fips,shared
 
-c. Make Configured Build:
+ c. Make Configured Build:
 > nmake			[to build]
 
 After above your build will be ready in `Release` directory
