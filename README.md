@@ -1,12 +1,12 @@
 PHP 7.0.27 with OpenSSL FIPS Complaint Build
 
-# Compile PHP 7.0.27: [In 32 Bit Windows 7] - NTS (Non-Thread Safe)and TS (Thread Safe)
+## Compile PHP 7.0.27: [In 32 Bit Windows 7] - NTS (Non-Thread Safe)and TS (Thread Safe)
 
 ##### Reference Link: https://wiki.php.net/internals/windows/stepbystepbuild
 ##### Reference FIPS Module: https://github.com/shadman/fips-module-build
 ##### Reference OPENSSL FIPS Complaint: https://github.com/shadman/openssl-fips-module-build
 
-## Compiling PHP 7.0.27 Build Steps:
+## Compiling PHP 7.0.27 and Configure OpenSSL Build Steps:
 
 0. Windows 7 Recommended with 32 Bit
 1. Install Visual Studio 2015 with VC 14 for PHP 7.0.27 Compilation
